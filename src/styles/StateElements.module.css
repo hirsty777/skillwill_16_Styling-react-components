@@ -1,0 +1,47 @@
+.back-log-box, .in-progress-box, .done-box{
+    width: 90%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 5px;
+    column-gap: 20px;
+    border-radius: 8px;
+}
+.back-log, .in-progress, .done{
+    width: 90%;
+    padding: 20px 5px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-auto-rows: min-content;;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.back-log-text, .in-progress-text, .done-text{
+    word-break: break-all;
+}
+
+.btn-box{
+    justify-self: flex-end;
+    display: flex;
+    column-gap: 10px;
+}
+/*buttons with same class*/
+.in-progress-btn, .back-log-btn, .done-btn{
+    position: relative;
+    min-width: 20px;
+    height: auto;
+    padding: 10px;
+    justify-self: end;
+    align-self: center;
+    font-weight: 600;
+
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+.done-text, .back-log-text, .in-progress-text{
+    color: rgb(0, 0, 0);
+}

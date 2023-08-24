@@ -1,0 +1,43 @@
+/* Add box styles ===== */
+.add-wrapper{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: column;
+}
+.add-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+}
+.add-box input{
+    width: 30%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.add-box input:hover{
+    outline: 1px solid rgb(19, 109, 42);
+}
+.add-box button{
+    cursor: pointer;
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+.flex-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 10px;
+}
+
+
+/*custom line colors for state elements(backlog,inprogress,done)*/
